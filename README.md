@@ -6,12 +6,12 @@ This repository contains the implementation and experimental setup based on the 
 
 ### Experiment Overview
 
-The core of this experiment is a systematic examination of how different types of passages provided to a Large Language Model (LLM) affect its accuracy in an Open-Domain Question Answering (OpenQA) task[cite: 72, 109]. 
+The core of this experiment is a systematic examination of how different types of passages provided to a Large Language Model (LLM) affect its accuracy in an Open-Domain Question Answering (OpenQA) task. 
 
 Key findings from the study include:
 * **The Negative Impact of Distractors:** Top-scoring documents retrieved by an Information Retrieval (IR) system that do not contain the actual answer (distracting documents) can significantly degrade LLM performance.
 * **The "Power of Noise":** Counter-intuitively, adding completely random documents (informational noise) to the prompt can improve LLM accuracy by up to **35%**
-* **Positioning Matters:** Relevant information is most effective when placed **near the query**; models struggle when the "gold" document is placed in the middle of a long context, often referred to as being "lost in the middle".
+* **Positioning Matters:** Relevant information is most effective when placed **near the query**; models struggle when the "gold" document is placed in the middle of a long context.
 
 ---
 
@@ -30,7 +30,7 @@ This project utilizes the **2WikiMultiHopQA** dataset.
 * **Note:** This folder is included in the `.gitignore` to prevent large generated files from being pushed to GitHub.
 
 #### 3. Generate Prompts
-Once the data is in place, run the generation script from the src folder to create the formatted JSONL file used for testing, this JSON file will be saved in prompts folder.
+Once the data is in place, run the generation script from the root directory to create the formatted JSONL file used for testing, this JSON file will be saved in prompts folder.
 
 ```bash
 python src/gold_prompt.py
