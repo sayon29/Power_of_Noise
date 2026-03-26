@@ -1,4 +1,5 @@
 dataset/
 prompts/
+result_data/
 *.json
 *.jsonl

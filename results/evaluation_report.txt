@@ -1,0 +1,7 @@
+EXPERIMENT REPORT: gold_only_model_results.jsonl
+========================================
+Total Samples:       300
+----------------------------------------
+Correct (Match):     169      (56.33%)
+Incorrect/Failed:    131      (43.67%)
+========================================
