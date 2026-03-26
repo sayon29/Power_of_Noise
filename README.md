@@ -50,5 +50,5 @@ First get the models you want from hugging face and get the HF_TOKEN, save it in
 Run the evaluation.py file for getting accuracy, run it with proper filenames, the results will be saved in the results folder
 
 ```bash
-python src/gold_prompt.py
+python src/evaluation.py
 ```
