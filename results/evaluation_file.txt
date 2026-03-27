@@ -1,0 +1,16 @@
+SUMMARY EVALUATION REPORT (Binary Substring Match)
+==========================================================================================
+Filename                                 | G  | K  | R  | Total  | Correct  | Accuracy
+------------------------------------------------------------------------------------------
+results_gold_2_dist_0_rand_0.jsonl       | 2  | 0  | 0  | 1200   | 640      | 53.33%
+results_gold_2_dist_0_rand_1.jsonl       | 2  | 0  | 1  | 1200   | 547      | 45.58%
+results_gold_2_dist_0_rand_2.jsonl       | 2  | 0  | 2  | 1200   | 524      | 43.67%
+results_gold_2_dist_0_rand_4.jsonl       | 2  | 0  | 4  | 1200   | 525      | 43.75%
+results_gold_2_dist_0_rand_6.jsonl       | 2  | 0  | 6  | 1200   | 524      | 43.67%
+results_gold_2_dist_0_rand_8.jsonl       | 2  | 0  | 8  | 1200   | 506      | 42.17%
+results_gold_2_dist_1_rand_0.jsonl       | 2  | 1  | 0  | 1200   | 517      | 43.08%
+results_gold_2_dist_2_rand_0.jsonl       | 2  | 2  | 0  | 1200   | 453      | 37.75%
+results_gold_2_dist_4_rand_0.jsonl       | 2  | 4  | 0  | 1200   | 426      | 35.50%
+results_gold_2_dist_6_rand_0.jsonl       | 2  | 6  | 0  | 1200   | 416      | 34.67%
+results_gold_2_dist_8_rand_0.jsonl       | 2  | 8  | 0  | 1200   | 402      | 33.50%
+==========================================================================================

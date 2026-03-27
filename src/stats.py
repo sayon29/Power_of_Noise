@@ -2,6 +2,7 @@ import json
 import os
 import math
 
+PROMPTS_DIR = os.path.join("..", "prompts")
 DATASET_DIR = os.path.join("..", "dataset")
 FILE = os.path.join(DATASET_DIR, "dev.json")
 

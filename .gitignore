@@ -1,5 +1,7 @@
 dataset/
 prompts/
 result_data/
+src/__pycache__/
+src/venv/
 *.json
 *.jsonl
